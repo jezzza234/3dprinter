@@ -12,7 +12,7 @@ echo "M92 X79.33 Y79.40 Z396.43 ; JP calibrate" > ~/Downloads/readme.txt
 echo "M301 P21.88 I1.79 D67.04 ; JP calibrate PID" >> ~/Downloads/readme.txt
 echo "" >> ~/Downloads/readme.txt
 echo "220 x 220 x 250" >> ~/Downloads/readme.txt
-open ~/Downloads/readme.txt &
+xdg-open ~/Downloads/readme.txt &
 
 url="https://send-anywhere.com"
 
